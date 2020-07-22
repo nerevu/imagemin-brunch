@@ -1,12 +1,12 @@
 # imagemin-brunch
 simple image minification for brunch
 
-[![NPM](https://nodei.co/npm/imagemin-brunch.png?mini=true)](https://nodei.co/npm/imagemin-brunch/)
+[![NPM](https://nodei.co/npm/@nerevu/imagemin-brunch.png?mini=true)](https://nodei.co/npm/@nerevu/imagemin-brunch/)
 
 This is a super simple plug-and-play plugin that minifies your images with [imagemin](https://www.npmjs.com/package/imagemin).
 
 ```
-$ npm install --save-dev imagemin-brunch
+$ npm install --save-dev @nerevu/imagemin-brunch
 $ brunch build --production
 18:06:47 - info: compiled 6 files into 2 files, copied 14 in 2.3 sec
 18:06:53 - info: minified 9 images to save 334 kB in 5.3 sec
