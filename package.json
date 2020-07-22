@@ -1,5 +1,5 @@
 {
-  "name": "imagemin-brunch",
+  "name": "@nerevu/imagemin-brunch",
   "version": "1.1.0",
   "description": "Simple image minification for brunch",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/stawberri/imagemin-brunch.git"
+    "url": "git+https://github.com/nerevu/imagemin-brunch.git"
   },
   "keywords": [
     "brunch",
@@ -24,9 +24,9 @@
   "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/stawberri/imagemin-brunch/issues"
+    "url": "https://github.com/nerevu/imagemin-brunch/issues"
   },
-  "homepage": "https://github.com/stawberri/imagemin-brunch#readme",
+  "homepage": "https://github.com/nerevu/imagemin-brunch#readme",
   "dependencies": {
     "imagemin": "^5.2.2",
     "loggy": "^1.0.2",
