@@ -44,7 +44,7 @@ exports = module.exports = class {
     this.config.pattern = new RegExp(this.config.pattern);
   }
 
-  onCompile(err, assets) {
+  onCompile(files, assets) {
     let startTime = Date.now();
     let promises = [];
     let oldBytes = 0;
