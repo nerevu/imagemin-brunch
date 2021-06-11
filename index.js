@@ -18,6 +18,7 @@ exports = module.exports = class {
 
     if (new Object(this.config.plugins) !== this.config.plugins)
       this.config.plugins = {};
+
     this.config.plugins = Object.assign(
       {},
       imageminPlugins,
@@ -44,7 +45,7 @@ exports = module.exports = class {
     this.config.pattern = new RegExp(this.config.pattern);
   }
 
-  onCompile(err, assets) {
+  onCompile(files, assets) {
     let startTime = Date.now();
     let promises = [];
     let oldBytes = 0;
