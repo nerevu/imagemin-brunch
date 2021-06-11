@@ -18,6 +18,7 @@ exports = module.exports = class {
 
     if (new Object(this.config.plugins) !== this.config.plugins)
       this.config.plugins = {};
+
     this.config.plugins = Object.assign(
       {},
       imageminPlugins,
