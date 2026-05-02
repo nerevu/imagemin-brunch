@@ -1,6 +1,6 @@
 {
   "name": "@nerevu/imagemin-brunch",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "description": "Simple image minification for brunch",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,10 @@
   ],
   "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
   "license": "ISC",
+  "engines": {
+    "node": "~24.11",
+    "npm": "~11.6"
+  },
   "bugs": {
     "url": "https://github.com/nerevu/imagemin-brunch/issues"
   },
