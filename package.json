@@ -25,6 +25,10 @@
   ],
   "author": "Pudding <aideen@aideen.pw> (https://aideen.pw/)",
   "license": "ISC",
+  "engines": {
+    "node": "~24.11",
+    "npm": "~11.6"
+  },
   "bugs": {
     "url": "https://github.com/nerevu/imagemin-brunch/issues"
   },
