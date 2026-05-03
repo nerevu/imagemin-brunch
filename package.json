@@ -1,12 +1,12 @@
 {
   "name": "@nerevu/imagemin-brunch",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "description": "Simple image minification for brunch",
-  "main": "index.cjs",
+  "main": "index.js",
   "type": "module",
   "scripts": {
-    "prettify": "prettier --write 'index.cjs'",
-    "lint": "eslint index.cjs",
+    "prettify": "prettier --write 'index.js'",
+    "lint": "eslint index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

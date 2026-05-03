@@ -1,8 +1,8 @@
-const fs = require("fs");
-const imagemin = require("imagemin");
-const loggy = require("loggy");
-const plur = require("plur");
-const prettyBytes = require("pretty-bytes");
+import fs from "fs";
+import imagemin from "imagemin";
+import loggy from "loggy";
+import plur from "plur";
+import prettyBytes from "pretty-bytes";
 
 const imageminPattern = /\.(gif|jpg|jpeg|jpe|jif|jfif|jfi|png|svg|svgz)$/;
 const imageminPlugins = {
