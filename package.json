@@ -3,6 +3,7 @@
   "version": "2.0.0",
   "description": "Simple image minification for brunch",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "prettify": "prettier --write 'index.js'",
     "lint": "eslint index.js",

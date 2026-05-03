@@ -26,8 +26,8 @@ exports = module.exports = class {
     );
     this.plugins = [];
     let pluginLoads = 0;
-    for (let plugin in this.config.plugins) {
-      let options = this.config.plugins[plugin];
+    for (const plugin in this.config.plugins) {
+      const options = this.config.plugins[plugin];
       if (!options) continue;
       else pluginLoads++;
       try {
@@ -46,17 +46,17 @@ exports = module.exports = class {
   }
 
   onCompile(files, assets) {
-    let startTime = Date.now();
-    let promises = [];
+    const startTime = Date.now();
+    const promises = [];
     let oldBytes = 0;
     let newBytes = 0;
 
-    for (let asset of assets) {
+    for (const asset of assets) {
       if (!this.config.pattern.test(asset.destinationPath)) continue;
 
       promises.push(
         new Promise((res, rej) => {
-          let data = Buffer.from(asset.compiled);
+          const data = Buffer.from(asset.compiled);
           oldBytes += data.length;
 
           imagemin.buffer(data, { plugins: this.plugins }).then(buffer => {
@@ -73,8 +73,8 @@ exports = module.exports = class {
 
     Promise.all(promises)
       .then(() => {
-        let elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
-        let saved = prettyBytes(oldBytes - newBytes);
+        const elapsed = ((Date.now() - startTime) / 1000).toFixed(1);
+        const saved = prettyBytes(oldBytes - newBytes);
 
         loggy.info(
           `[imagemin] minified ${promises.length} ${plur(
