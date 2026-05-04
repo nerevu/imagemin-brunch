@@ -6,5 +6,8 @@ export default defineConfig([
 			semi: "error",
 			"prefer-const": "error",
 		},
+		languageOptions: {
+	        sourceType: "module"
+	    }
 	},
 ]);
