@@ -1,6 +1,6 @@
 {
   "name": "@nerevu/imagemin-brunch",
-  "version": "2.4.2",
+  "version": "2.4.3",
   "description": "Simple image minification for brunch",
   "main": "index.mjs",
   "type": "module",
