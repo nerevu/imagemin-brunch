@@ -12,7 +12,7 @@ const imageminPlugins = {
   "imagemin-svgo": true
 };
 
-exports = module.exports = class {
+const exports = class {
   constructor(config) {
     this.config = config.plugins.imagemin || {};
 
@@ -92,3 +92,4 @@ exports = module.exports = class {
 };
 
 exports.prototype.brunchPlugin = true;
+export default exports;
